@@ -1,0 +1,129 @@
+Cmp-Mod V01 Created by CvPcb (2012-apr-16-27)-stable date = Sat 17 May 2014 11:19:18 BST
+
+BeginCmp
+TimeStamp = /53728BB4;
+Reference = C1;
+ValeurCmp = 0.01uF;
+IdModule  = SM0201;
+EndCmp
+
+BeginCmp
+TimeStamp = /53728883;
+Reference = C2;
+ValeurCmp = 1uF;
+IdModule  = SM0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /53728873;
+Reference = C3;
+ValeurCmp = 1uF;
+IdModule  = SM0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /53728C28;
+Reference = C4;
+ValeurCmp = 0.01uF;
+IdModule  = SM0201;
+EndCmp
+
+BeginCmp
+TimeStamp = /5372778F;
+Reference = C5;
+ValeurCmp = 0.22uF;
+IdModule  = SM0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /5372784B;
+Reference = C6;
+ValeurCmp = 1uF;
+IdModule  = SM0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /537291FA;
+Reference = C7;
+ValeurCmp = 0.1uF;
+IdModule  = SM0201;
+EndCmp
+
+BeginCmp
+TimeStamp = /53727757;
+Reference = C8;
+ValeurCmp = 0.1uF;
+IdModule  = SM0201;
+EndCmp
+
+BeginCmp
+TimeStamp = /5372783F;
+Reference = C9;
+ValeurCmp = 1uF;
+IdModule  = SM0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /53727611;
+Reference = C10;
+ValeurCmp = 0.1uF;
+IdModule  = SM0201;
+EndCmp
+
+BeginCmp
+TimeStamp = /53726DC6;
+Reference = P1;
+ValeurCmp = CONN_4;
+IdModule  = JST_XH_1.5_4_Pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /5372960F;
+Reference = R1;
+ValeurCmp = 4K7;
+IdModule  = SM0201;
+EndCmp
+
+BeginCmp
+TimeStamp = /5372885C;
+Reference = U1;
+ValeurCmp = MCP1703T;
+IdModule  = SOT23;
+EndCmp
+
+BeginCmp
+TimeStamp = /53728B76;
+Reference = U2;
+ValeurCmp = PCA9512ADP;
+IdModule  = TSSOP-8;
+EndCmp
+
+BeginCmp
+TimeStamp = /537290EF;
+Reference = U3;
+ValeurCmp = TMP105;
+IdModule  = DSBGA;
+EndCmp
+
+BeginCmp
+TimeStamp = /53726E09;
+Reference = U4;
+ValeurCmp = HIH-6131-021;
+IdModule  = SOIC8;
+EndCmp
+
+BeginCmp
+TimeStamp = /53726E32;
+Reference = U5;
+ValeurCmp = MPL115A;
+IdModule  = LGA-8;
+EndCmp
+
+BeginCmp
+TimeStamp = /53769BCD;
+Reference = U6;
+ValeurCmp = TSL2561T;
+IdModule  = TMB-6;
+EndCmp
+
+EndListe

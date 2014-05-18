@@ -1,0 +1,168 @@
+# EESchema Netlist Version 1.1 created  Sat 17 May 2014 11:19:18 BST
+(
+ ( /53728BB4 SM0201 C1 0.01uF
+  ( 1 3V3 )
+  ( 2 GND )
+ )
+ ( /53728883 SM0402 C2 1uF
+  ( 1 +5V )
+  ( 2 GND )
+ )
+ ( /53728873 SM0402 C3 1uF
+  ( 1 3V3 )
+  ( 2 GND )
+ )
+ ( /53728C28 SM0201 C4 0.01uF
+  ( 1 +5V )
+  ( 2 GND )
+ )
+ ( /5372778F SM0402 C5 0.22uF
+  ( 1 3V3 )
+  ( 2 GND )
+ )
+ ( /5372784B SM0402 C6 1uF
+  ( 1 3V3 )
+  ( 2 GND )
+ )
+ ( /537291FA SM0201 C7 0.1uF
+  ( 1 3V3 )
+  ( 2 GND )
+ )
+ ( /53727757 SM0201 C8 0.1uF
+  ( 1 GND )
+  ( 2 N-000014 )
+ )
+ ( /5372783F SM0402 C9 1uF
+  ( 1 GND )
+  ( 2 N-000008 )
+ )
+ ( /53727611 SM0201 C10 0.1uF
+  ( 1 3V3 )
+  ( 2 GND )
+ )
+ ( /53726DC6 JST_XH_1.5_4_Pin P1 CONN_4
+  ( 1 /SCLin )
+  ( 2 /SDAin )
+  ( 3 +5V )
+  ( 4 GND )
+ )
+ ( /5372960F SM0201 R1 4K7
+  ( 1 3V3 )
+  ( 2 N-000017 )
+ )
+ ( /5372885C SOT23 U1 MCP1703T
+  ( 1 GND )
+  ( 2 3V3 )
+  ( 3 +5V )
+ )
+ ( /53728B76 TSSOP-8 U2 PCA9512ADP
+  ( 1 3V3 )
+  ( 2 /SCL )
+  ( 3 /SCLin )
+  ( 4 GND )
+  ( 5 3V3 )
+  ( 6 /SDAin )
+  ( 7 /SDA )
+  ( 8 +5V )
+ )
+ ( /537290EF DSBGA U3 TMP105
+  ( A1 /SDA )
+  ( A2 GND )
+  ( B1 /SCL )
+  ( B2 GND )
+  ( C1 3V3 )
+  ( C2 N-000017 )
+ )
+ ( /53726E09 SOIC8 U4 HIH-6131-021
+  ( 1 N-000014 )
+  ( 2 GND )
+  ( 3 /SCL )
+  ( 4 /SDA )
+  ( 5 ? )
+  ( 6 ? )
+  ( 7 ? )
+  ( 8 3V3 )
+ )
+ ( /53726E32 LGA-8 U5 MPL115A
+  ( 1 3V3 )
+  ( 2 N-000008 )
+  ( 3 GND )
+  ( 4 3V3 )
+  ( 5 ? )
+  ( 6 ? )
+  ( 7 /SDA )
+  ( 8 /SCL )
+ )
+ ( /53769BCD TMB-6 U6 TSL2561T
+  ( 1 3V3 )
+  ( 2 ? )
+  ( 3 GND )
+  ( 4 /SCL )
+  ( 5 ? )
+  ( 6 /SDA )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component C5
+ SM*
+ C?
+ C1-1
+$endlist
+$component C6
+ SM*
+ C?
+ C1-1
+$endlist
+$component C7
+ SM*
+ C?
+ C1-1
+$endlist
+$component C8
+ SM*
+ C?
+ C1-1
+$endlist
+$component C9
+ SM*
+ C?
+ C1-1
+$endlist
+$component C10
+ SM*
+ C?
+ C1-1
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component U4
+ SO8E
+$endlist
+$endfootprintlist
+}
