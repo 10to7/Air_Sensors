@@ -1,4 +1,7 @@
 Air_Sensors
 ===========
 
-Sensor breakout board
+A I2C sensor breakout board containing a:
+* Humidity sensor.
+* Barometric pressure sensor.
+* Temperature sensor.
