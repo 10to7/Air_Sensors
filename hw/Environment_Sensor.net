@@ -1,168 +1,312 @@
-# EESchema Netlist Version 1.1 created  Sat 17 May 2014 11:19:18 BST
-(
- ( /53728BB4 SM0201 C1 0.01uF
-  ( 1 3V3 )
-  ( 2 GND )
- )
- ( /53728883 SM0402 C2 1uF
-  ( 1 +5V )
-  ( 2 GND )
- )
- ( /53728873 SM0402 C3 1uF
-  ( 1 3V3 )
-  ( 2 GND )
- )
- ( /53728C28 SM0201 C4 0.01uF
-  ( 1 +5V )
-  ( 2 GND )
- )
- ( /5372778F SM0402 C5 0.22uF
-  ( 1 3V3 )
-  ( 2 GND )
- )
- ( /5372784B SM0402 C6 1uF
-  ( 1 3V3 )
-  ( 2 GND )
- )
- ( /537291FA SM0201 C7 0.1uF
-  ( 1 3V3 )
-  ( 2 GND )
- )
- ( /53727757 SM0201 C8 0.1uF
-  ( 1 GND )
-  ( 2 N-000014 )
- )
- ( /5372783F SM0402 C9 1uF
-  ( 1 GND )
-  ( 2 N-000008 )
- )
- ( /53727611 SM0201 C10 0.1uF
-  ( 1 3V3 )
-  ( 2 GND )
- )
- ( /53726DC6 JST_XH_1.5_4_Pin P1 CONN_4
-  ( 1 /SCLin )
-  ( 2 /SDAin )
-  ( 3 +5V )
-  ( 4 GND )
- )
- ( /5372960F SM0201 R1 4K7
-  ( 1 3V3 )
-  ( 2 N-000017 )
- )
- ( /5372885C SOT23 U1 MCP1703T
-  ( 1 GND )
-  ( 2 3V3 )
-  ( 3 +5V )
- )
- ( /53728B76 TSSOP-8 U2 PCA9512ADP
-  ( 1 3V3 )
-  ( 2 /SCL )
-  ( 3 /SCLin )
-  ( 4 GND )
-  ( 5 3V3 )
-  ( 6 /SDAin )
-  ( 7 /SDA )
-  ( 8 +5V )
- )
- ( /537290EF DSBGA U3 TMP105
-  ( A1 /SDA )
-  ( A2 GND )
-  ( B1 /SCL )
-  ( B2 GND )
-  ( C1 3V3 )
-  ( C2 N-000017 )
- )
- ( /53726E09 SOIC8 U4 HIH-6131-021
-  ( 1 N-000014 )
-  ( 2 GND )
-  ( 3 /SCL )
-  ( 4 /SDA )
-  ( 5 ? )
-  ( 6 ? )
-  ( 7 ? )
-  ( 8 3V3 )
- )
- ( /53726E32 LGA-8 U5 MPL115A
-  ( 1 3V3 )
-  ( 2 N-000008 )
-  ( 3 GND )
-  ( 4 3V3 )
-  ( 5 ? )
-  ( 6 ? )
-  ( 7 /SDA )
-  ( 8 /SCL )
- )
- ( /53769BCD TMB-6 U6 TSL2561T
-  ( 1 3V3 )
-  ( 2 ? )
-  ( 3 GND )
-  ( 4 /SCL )
-  ( 5 ? )
-  ( 6 /SDA )
- )
-)
-*
-{ Allowed footprints by component:
-$component C1
- SM*
- C?
- C1-1
-$endlist
-$component C2
- SM*
- C?
- C1-1
-$endlist
-$component C3
- SM*
- C?
- C1-1
-$endlist
-$component C4
- SM*
- C?
- C1-1
-$endlist
-$component C5
- SM*
- C?
- C1-1
-$endlist
-$component C6
- SM*
- C?
- C1-1
-$endlist
-$component C7
- SM*
- C?
- C1-1
-$endlist
-$component C8
- SM*
- C?
- C1-1
-$endlist
-$component C9
- SM*
- C?
- C1-1
-$endlist
-$component C10
- SM*
- C?
- C1-1
-$endlist
-$component R1
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component U4
- SO8E
-$endlist
-$endfootprintlist
-}
+(export (version D)
+  (design
+    (source /home/elaine/Projects/Air_Sensors/hw/Environment_Sensor.sch)
+    (date "Sat 07 Jun 2014 23:40:04 BST")
+    (tool "eeschema (2014-03-19 BZR 4756)-product"))
+  (components
+    (comp (ref U6)
+      (value TSL2561T)
+      (libsource (lib 10to7_sensors) (part TSL2561T))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 53769BCD))
+    (comp (ref R1)
+      (value 4K7)
+      (libsource (lib device) (part R))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5372960F))
+    (comp (ref C7)
+      (value 0.1uF)
+      (libsource (lib device) (part C))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 537291FA))
+    (comp (ref U3)
+      (value TMP105)
+      (libsource (lib 10to7_sensors) (part TMP105))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 537290EF))
+    (comp (ref C4)
+      (value 0.01uF)
+      (libsource (lib device) (part C))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 53728C28))
+    (comp (ref C1)
+      (value 0.01uF)
+      (libsource (lib device) (part C))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 53728BB4))
+    (comp (ref U2)
+      (value PCA9512ADP)
+      (libsource (lib 10to7_ic) (part PCA9512ADP))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 53728B76))
+    (comp (ref C2)
+      (value 1uF)
+      (libsource (lib device) (part C))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 53728883))
+    (comp (ref C3)
+      (value 1uF)
+      (libsource (lib device) (part C))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 53728873))
+    (comp (ref U1)
+      (value MCP1703T)
+      (libsource (lib 10to7_power) (part MCP1703T))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5372885C))
+    (comp (ref C6)
+      (value 1uF)
+      (libsource (lib device) (part C))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5372784B))
+    (comp (ref C9)
+      (value 1uF)
+      (libsource (lib device) (part C))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5372783F))
+    (comp (ref C5)
+      (value 0.22uF)
+      (libsource (lib device) (part C))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5372778F))
+    (comp (ref C8)
+      (value 0.1uF)
+      (libsource (lib device) (part C))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 53727757))
+    (comp (ref C10)
+      (value 0.1uF)
+      (libsource (lib device) (part C))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 53727611))
+    (comp (ref U5)
+      (value MPL115A)
+      (libsource (lib 10to7_sensors) (part MPL115A))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 53726E32))
+    (comp (ref U4)
+      (value HIH-6131-021)
+      (libsource (lib 10to7_sensors) (part HIH-6131-021))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 53726E09))
+    (comp (ref P1)
+      (value CONN_4)
+      (libsource (lib conn) (part CONN_4))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 53726DC6))
+    (comp (ref P2)
+      (value CONN_4)
+      (libsource (lib conn) (part CONN_4))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 539395E2)))
+  (libparts
+    (libpart (lib device) (part C)
+      (description "Condensateur non polarise")
+      (footprints
+        (fp SM*)
+        (fp C?)
+        (fp C1-1))
+      (fields
+        (field (name Reference) C)
+        (field (name Value) C))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))))
+    (libpart (lib device) (part R)
+      (description Resistance)
+      (footprints
+        (fp R?)
+        (fp SM0603)
+        (fp SM0805)
+        (fp R?-*)
+        (fp SM1206))
+      (fields
+        (field (name Reference) R)
+        (field (name Value) R))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))))
+    (libpart (lib conn) (part CONN_4)
+      (description "Symbole general de connecteur")
+      (fields
+        (field (name Reference) P)
+        (field (name Value) CONN_4))
+      (pins
+        (pin (num 1) (name P1) (type passive))
+        (pin (num 2) (name P2) (type passive))
+        (pin (num 3) (name P3) (type passive))
+        (pin (num 4) (name P4) (type passive))))
+    (libpart (lib 10to7_ic) (part PCA9512ADP)
+      (description "I2C level converter")
+      (fields
+        (field (name Reference) U)
+        (field (name Value) PCA9512ADP))
+      (pins
+        (pin (num 1) (name VCC2) (type power_in))
+        (pin (num 2) (name SCLOUT) (type BiDi))
+        (pin (num 3) (name SCLIN) (type BiDi))
+        (pin (num 4) (name GND) (type power_in))
+        (pin (num 5) (name ACC) (type input))
+        (pin (num 6) (name SDAIN) (type BiDi))
+        (pin (num 7) (name SDAOUT) (type BiDi))
+        (pin (num 8) (name VCC) (type power_in))))
+    (libpart (lib 10to7_power) (part MCP1703T)
+      (fields
+        (field (name Reference) U)
+        (field (name Value) MCP1703T))
+      (pins
+        (pin (num 1) (name GND) (type power_in))
+        (pin (num 2) (name Vout) (type power_out))
+        (pin (num 3) (name Vin) (type power_in))))
+    (libpart (lib 10to7_sensors) (part HIH-6131-021)
+      (description "Honeywell humidity sensor")
+      (footprints
+        (fp SO8E))
+      (fields
+        (field (name Reference) U)
+        (field (name Value) HIH-6131-021))
+      (pins
+        (pin (num 1) (name Vcore) (type power_out))
+        (pin (num 2) (name Vss) (type power_in))
+        (pin (num 3) (name SCL) (type input))
+        (pin (num 4) (name SDA) (type input))
+        (pin (num 5) (name AL_H) (type output))
+        (pin (num 6) (name AL_L) (type output))
+        (pin (num 7) (name NC) (type input))
+        (pin (num 8) (name Vdd) (type power_in))))
+    (libpart (lib 10to7_sensors) (part MPL115A)
+      (description "MPL115A freescale barometric pressure sensor")
+      (fields
+        (field (name Reference) U)
+        (field (name Value) MPL115A))
+      (pins
+        (pin (num 1) (name VDD) (type power_in))
+        (pin (num 2) (name CAP) (type input))
+        (pin (num 3) (name GND) (type power_in))
+        (pin (num 4) (name SHDN) (type input))
+        (pin (num 5) (name RST) (type input))
+        (pin (num 6) (name NC) (type input))
+        (pin (num 7) (name SDA) (type input))
+        (pin (num 8) (name SCL) (type input))))
+    (libpart (lib 10to7_sensors) (part TMP105)
+      (description "TMP105 digital temperature sensor.")
+      (fields
+        (field (name Reference) U)
+        (field (name Value) TMP105))
+      (pins
+        (pin (num A1) (name SDA) (type input))
+        (pin (num A2) (name GND) (type power_in))
+        (pin (num B1) (name SCL) (type input))
+        (pin (num B2) (name ALERT) (type input))
+        (pin (num C1) (name V+) (type power_in))
+        (pin (num C2) (name A0) (type input))))
+    (libpart (lib 10to7_sensors) (part TSL2561T)
+      (description "TSL256 ligth to digital converter.")
+      (fields
+        (field (name Reference) U)
+        (field (name Value) TSL2561T))
+      (pins
+        (pin (num 1) (name VDD) (type power_in))
+        (pin (num 2) (name ADDR_SEL) (type input))
+        (pin (num 3) (name GND) (type power_out))
+        (pin (num 4) (name SCL) (type input))
+        (pin (num 5) (name INT) (type input))
+        (pin (num 6) (name SDA) (type input)))))
+  (libraries
+    (library (logical device)
+      (uri /usr/local/share/kicad/library/device.lib))
+    (library (logical conn)
+      (uri /usr/local/share/kicad/library/conn.lib))
+    (library (logical 10to7_ic)
+      (uri ../../ComponentLibrary/10to7_ic.lib))
+    (library (logical 10to7_power)
+      (uri ../../ComponentLibrary/10to7_power.lib))
+    (library (logical 10to7_sensors)
+      (uri ../../ComponentLibrary/10to7_sensors.lib)))
+  (nets
+    (net (code 1) (name 3V3)
+      (node (ref U5) (pin 4))
+      (node (ref U5) (pin 1))
+      (node (ref C10) (pin 1))
+      (node (ref U4) (pin 8))
+      (node (ref U2) (pin 5))
+      (node (ref U6) (pin 1))
+      (node (ref C3) (pin 1))
+      (node (ref U3) (pin C1))
+      (node (ref C7) (pin 1))
+      (node (ref R1) (pin 1))
+      (node (ref U1) (pin 2))
+      (node (ref C6) (pin 1))
+      (node (ref C1) (pin 1))
+      (node (ref C5) (pin 1))
+      (node (ref U2) (pin 1)))
+    (net (code 2) (name GND)
+      (node (ref U2) (pin 4))
+      (node (ref C4) (pin 2))
+      (node (ref U5) (pin 3))
+      (node (ref C6) (pin 2))
+      (node (ref U3) (pin A2))
+      (node (ref U3) (pin B2))
+      (node (ref C5) (pin 2))
+      (node (ref C9) (pin 1))
+      (node (ref U6) (pin 3))
+      (node (ref C8) (pin 1))
+      (node (ref U4) (pin 2))
+      (node (ref P1) (pin 4))
+      (node (ref U1) (pin 1))
+      (node (ref C3) (pin 2))
+      (node (ref P2) (pin 4))
+      (node (ref C7) (pin 2))
+      (node (ref C1) (pin 2))
+      (node (ref C10) (pin 2))
+      (node (ref C2) (pin 2)))
+    (net (code 3) (name "Net-(U5-Pad5)")
+      (node (ref U5) (pin 5)))
+    (net (code 4) (name "Net-(U5-Pad6)")
+      (node (ref U5) (pin 6)))
+    (net (code 5) (name "Net-(U4-Pad7)")
+      (node (ref U4) (pin 7)))
+    (net (code 6) (name "Net-(U4-Pad5)")
+      (node (ref U4) (pin 5)))
+    (net (code 7) (name "Net-(U4-Pad6)")
+      (node (ref U4) (pin 6)))
+    (net (code 8) (name +5V)
+      (node (ref P2) (pin 3))
+      (node (ref U1) (pin 3))
+      (node (ref U2) (pin 8))
+      (node (ref C2) (pin 1))
+      (node (ref C4) (pin 1))
+      (node (ref P1) (pin 3)))
+    (net (code 9) (name /SDA)
+      (node (ref U3) (pin A1))
+      (node (ref U5) (pin 7))
+      (node (ref U6) (pin 6))
+      (node (ref U4) (pin 4))
+      (node (ref U2) (pin 7)))
+    (net (code 10) (name /SCLin)
+      (node (ref U2) (pin 3))
+      (node (ref P2) (pin 1))
+      (node (ref P1) (pin 1)))
+    (net (code 11) (name "Net-(C8-Pad2)")
+      (node (ref U4) (pin 1))
+      (node (ref C8) (pin 2)))
+    (net (code 12) (name /SDAin)
+      (node (ref P1) (pin 2))
+      (node (ref U2) (pin 6))
+      (node (ref P2) (pin 2)))
+    (net (code 13) (name /SCL)
+      (node (ref U3) (pin B1))
+      (node (ref U4) (pin 3))
+      (node (ref U2) (pin 2))
+      (node (ref U5) (pin 8))
+      (node (ref U6) (pin 4)))
+    (net (code 14) (name "Net-(U6-Pad2)")
+      (node (ref U6) (pin 2)))
+    (net (code 15) (name "Net-(U6-Pad5)")
+      (node (ref U6) (pin 5)))
+    (net (code 16) (name "Net-(C9-Pad2)")
+      (node (ref U5) (pin 2))
+      (node (ref C9) (pin 2)))
+    (net (code 17) (name "Net-(R1-Pad2)")
+      (node (ref U3) (pin C2))
+      (node (ref R1) (pin 2)))))
