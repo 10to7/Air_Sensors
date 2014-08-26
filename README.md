@@ -1,6 +1,8 @@
 Air_Sensors
 ===========
 
+**Warning** _currently untested, may contain errors._
+
 A 5V I2C sensor breakout board containing a:
 * Humidity sensor.
 * Barometric pressure sensor.
